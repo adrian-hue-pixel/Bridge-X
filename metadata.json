@@ -1,0 +1,6 @@
+{
+  "name": "BRIDGE-X Acquisition Architect & Vibration Workbench",
+  "description": "Embedded-systems acquisition specification, MPU6050 register & voltage verifier, 200 Hz timing calculator, synthetic vibration simulator, and multi-condition FFT trial comparator for the BRIDGE-X IB Physics project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
