@@ -22,7 +22,16 @@
 
   <br><br>
 
+  <table>
+    <tr><th colspan="2">TEAM</th></tr>
+    <tr><td><b>Adrian C</b></td><td>Coding</td></tr>
+    <tr><td><b>Kavin K</b></td><td>Small scale physical model creator</td></tr>
+    <tr><td><b>Sritharan NS</b></td><td>Idea and model creator</td></tr>
+  </table>
+
 </div>
+
+---
 
 ---
 
@@ -36,21 +45,6 @@
 
 Developed for the **IB Physics Collaborative Sciences Project** and engineered from primary silicon datasheets (*InvenSense MPU-6000/MPU-6050 Register Map Rev 4.2* and *Microchip ATmega328P Datasheet DS40002061B*), the system pairs bare-metal register-level C++ firmware on an **Arduino Nano (`ATmega328P`)** with a browser-native **Web Serial + Fast Fourier Transform (FFT) Signal-Processing Workbench** and a standalone **Python modal analysis pipeline**.
 
-<div class="team-container">
-  <h3>TEAM:</h3>
-  <div class="team-member">
-    <span class="member-name">Adrian C : </span>
-    <span class="member-role">Coding</span>
-  </div>
-  <div class="team-member">
-    <span class="member-name">Kavin K : </span>
-    <span class="member-role">Small scale physical model creator</span>
-  </div>
-  <div class="team-member">
-    <span class="member-name">Sritharan NS : </span>
-    <span class="member-role">Idea and model Creator</span>
-  </div>
-</div>
 
 ---
 
