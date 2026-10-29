@@ -1,4 +1,37 @@
-# BRIDGE-X: Hardware-Paced MEMS Accelerometry & Modal Ring-Down FFT Workbench
+<div align="center">
+
+  <img src="docs/banner.svg" alt="BRIDGE-X – Hardware-Paced MEMS Accelerometry & Modal Ring-Down FFT Workbench" width="100%">
+
+  <p>
+    <img src="https://img.shields.io/badge/MCU-Arduino_Nano_(ATmega328P)-00979D?style=flat-square" alt="MCU">
+    <img src="https://img.shields.io/badge/MEMS-MPU--6050-2563EB?style=flat-square" alt="Sensor">
+    <img src="https://img.shields.io/badge/Sampling-200_Hz_INT0-059669?style=flat-square" alt="Sampling">
+    <img src="https://img.shields.io/badge/React_19-TypeScript-0F172A?style=flat-square&logo=react" alt="React">
+    <img src="https://img.shields.io/badge/Python-FFT_Analyzer-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License">
+  </p>
+
+  <p>
+    <a href="#key-engineering-highlights"><b>⚙️ Highlights</b></a> &nbsp;•&nbsp;
+    <a href="#1-pre-power-electronics-verification--exact-arduino-nano-wiring-table"><b>🔌 Wiring</b></a> &nbsp;•&nbsp;
+    <a href="#3-running-the-web-instrumentation-workbench-locally"><b>🚀 Run Workbench</b></a> &nbsp;•&nbsp;
+    <a href="#4-experimental-protocol-three-condition-bridge-comparison"><b>🧪 Protocol</b></a>
+  </p>
+
+  <sub>IB Physics Collaborative Sciences Project · Measuring stiffness-driven modal frequency shifts in a 60 × 12 × 12 cm truss bridge</sub>
+
+  <br><br>
+
+  <table>
+    <tr><th colspan="2">TEAM</th></tr>
+    <tr><td><b>Adrian C</b></td><td>Coding</td></tr>
+    <tr><td><b>Kavin K</b></td><td>Small scale physical model creator</td></tr>
+    <tr><td><b>Sritharan NS</b></td><td>Idea and model creator</td></tr>
+  </table>
+
+</div>
+
+---
 
 [![Target MCU](https://img.shields.io/badge/MCU-Arduino_Nano_(ATmega328P)-00979D?style=flat-square)](./firmware/bridge_x_firmware/bridge_x_firmware.ino)
 [![Sensor](https://img.shields.io/badge/MEMS-InvenSense_MPU--6050_(0x68)-2563EB?style=flat-square)](./firmware/bridge_x_firmware/bridge_x_firmware.ino)
