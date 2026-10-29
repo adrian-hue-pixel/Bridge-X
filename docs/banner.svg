@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="round"><rect width="900" height="280" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="900" height="280" fill="url(#bg)"/>
+    <rect width="900" height="280" fill="url(#grid)"/>
+
+    <!-- truss bridge icon -->
+    <g stroke="#e0f2fe" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M45 62H185M45 104H185"/>
+      <path d="M45 62V104M80 62V104M115 62V104M150 62V104M185 62V104"/>
+      <path d="M45 104L80 62L115 104L150 62L185 104" stroke="#38bdf8"/>
+      <path d="M38 104H192" stroke-width="5"/>
+    </g>
+    <g fill="#e0f2fe">
+      <path d="M45 108L30 130H60Z"/>
+      <path d="M185 108L170 130H200Z"/>
+    </g>
+
+    <!-- title -->
+    <text x="225" y="100" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="2" fill="#ffffff">BRIDGE-X</text>
+    <text x="228" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#bae6fd">Hardware-Paced MEMS Accelerometry &amp; Modal Ring-Down FFT Workbench</text>
+    <text x="228" y="158" font-family="Consolas, Menlo, monospace" font-size="14" fill="#34d399">200 Hz INT0 · MPU-6050 · ATmega328P · WebSerial</text>
+
+    <!-- baseline -->
+    <path d="M50 225H850" stroke="#ffffff" stroke-opacity="0.2" stroke-dasharray="4 6"/>
+
+    <!-- decaying ring-down wave (animated draw) -->
+    <path pathLength="1" stroke="url(#wave)" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"
+      d="M50 225
+         q20 -64 40 0 q20 58 40 0 q20 -52 40 0 q20 47 40 0
+         q20 -42 40 0 q20 37 40 0 q20 -33 40 0 q20 29 40 0
+         q20 -25 40 0 q20 22 40 0 q20 -19 40 0 q20 16 40 0
+         q20 -14 40 0 q20 12 40 0 q20 -10 40 0 q20 8 40 0
+         q20 -6 40 0 q20 5 40 0 q20 -4 40 0 q20 3 40 0">
+      <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.6;0.92;1" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
