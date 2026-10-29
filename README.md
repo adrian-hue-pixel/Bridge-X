@@ -22,13 +22,6 @@
 
   <br><br>
 
-  <table>
-    <tr><th colspan="2">TEAM</th></tr>
-    <tr><td><b>Adrian C</b></td><td>Coding</td></tr>
-    <tr><td><b>Kavin K</b></td><td>Small scale physical model creator</td></tr>
-    <tr><td><b>Sritharan NS</b></td><td>Idea and model creator</td></tr>
-  </table>
-
 </div>
 
 ---
